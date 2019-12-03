@@ -1,17 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a282fdf5-a693-4a84-b537-ed07da0b37ed" name="Default Changelist" comment="" />
+    <list default="true" id="a282fdf5-a693-4a84-b537-ed07da0b37ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BatailleNavale/battleShip/BattleField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BatailleNavale/battleShip/BattleField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BatailleNavale/battleShip/Boat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BatailleNavale/battleShip/War.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/BattleField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/BattleField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/Coordonates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/Coordonates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/Direction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/Direction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/HidingBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/HidingBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/ModelBoat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/ModelBoat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/Ship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/Ship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/battleShip/StateSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/StateSquare.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UQiLLczA15PQBB7p5NOSTR4NhB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="battleShip" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="HidingBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="battleShip.HidingBoard" />
+      <module name="BatailleNavale" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="battleShip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HidingBoard" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -35,7 +90,64 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575295162393</updated>
+      <workItem from="1575295165462" duration="5958000" />
+      <workItem from="1575358861327" duration="16156000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="574" y="112" key="#com.intellij.ide.util.MemberChooser" timestamp="1575378001953">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="112" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1575378001953" />
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1575385855835">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1575385855835" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1575386352003">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575386352003" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1575386352003">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575386352003" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1575386352002">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575386352002" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1575386352003">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575386352003" />
+    <state x="465" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1575358911386">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="235" key="com.intellij.ide.util.TipDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1575358911386" />
+    <state x="462" y="149" width="611" height="526" key="find.popup" timestamp="1575380453515">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="462" y="149" width="611" height="526" key="find.popup/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1575380453515" />
+    <state x="511" y="30" key="refactoring.ChangeSignatureDialog" timestamp="1575363283429">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="30" key="refactoring.ChangeSignatureDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1575363283429" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/battleShip/ModelBoat.java</url>
+          <line>10</line>
+          <properties class="battleShip.ModelBoat" method="&lt;init&gt;">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
