@@ -2,13 +2,13 @@ package battleShip;
 
 public enum ModelBoat {
     CARRIER(5), SUBMARINE(3), DESTROYER(2), CRUISER(4),IRONCLAD(3);
-    private final int size;
+    private final int length;
 
-    public int getSize() {
-        return size;
+    public int getLength() {
+        return length;
     }
 
-    ModelBoat(int size) {
-        this.size = size;
+    ModelBoat(int length) {
+        this.length = length;
     }
 }

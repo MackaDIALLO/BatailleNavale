@@ -2,52 +2,113 @@ package battleShip;
 
 public class Ship {
 
-    private StateSquare[] square;
-    private boolean horizontal;
+    ModelBoat name;
+    //ModelBoat length;
+    //Direction isVertical;
+    private Coordonates begin;
+    private Coordonates end;
+    private Coordonates[] touchedSquares;
+    private int nbTouched;
 
-    /** Creates a new instance of Bateau */
-    public Ship(ModelBoat model, Direction orientation, Coordonates debut, int size) {
 
-            square=new StateSquare[size];
 
-        int x =0;
-        int y = 0;
-        if(horizontal){
-                for(int i=0;i<size;i++){
-                    square[i]=new StateSquare(x+i,y);
-                }
-            }else{
-                for(int i=0;i<size;i++){
-                    square[i]=new StateSquare (x,y+i);
-                }
-            }
+    /*private StateSquare[] square;
+    private boolean horizontal;*/
+
+    /**
+     * Création d'une instance de Bateau
+     */
+    public Ship(ModelBoat name, int length, boolean isVertical, Coordonates begin) {
+
+        this.name = name;
+        //this.length = length;
+        this.begin = begin;
+        //this.isVertical = isVertical;
+
+        if (isVertical) {
+
+            end = new Coordonates(this.begin.getColumn(), this.begin.getLine() + length - 1);
+        } else {
+            end = new Coordonates(this.begin.getColumn() + length - 1, this.begin.getLine());
         }
-        public void move(int x,int y){
-            for(int i=0;i<square.length;i++){
-                square[i].move(x,y);
-            }
-        }
-        public void shoot(int x, int y){
-            for(int i=0;i<square.length;i++){
-                square[i].shoot(x,y);
-            }
-        }
-        public boolean destroyed(){
-            boolean res=true;
-            int i=0;
-            while((i<square.length)&&res){
-                res=(res)&&(square[i].getState()=="detruit");
-                i++;
-            }
-            return res;
-        }
-        public String toString(){
-            String s="("+square[0].getabcisse()+","+square[0].getordonnee()+")";
-            for(int i=0;i<square.length;i++)
-                s+=square[i].toString();
-            return s;
-        }
+
+        touchedSquares = new Coordonates[length];
+        nbTouched = 0;
     }
+
+    public Coordonates getBegin(){
+        return begin;
+    }
+
+    public Coordonates getEnd() {
+        return end;
+    }
+
+    /** une méthode qui vérifie si un bateau est sur une cordonnée.*/
+    public boolean isIn (Coordonates c){
+        return c.getColumn() >= begin.getColumn()
+                && c.getColumn() <= end.getColumn()
+                && c.getLine() >= begin.getLine()
+                && c.getLine() <= end.getLine();
+    }
+
+    /**Une méthode qui vérifie si deux bateaux se chevauchent*/
+    public boolean overLaps(Ship s) {
+        if (this.begin.getLine() == this.end.getLine()) {
+            return s.begin.getColumn() >= this.begin.getColumn()
+                    && s.begin.getColumn() <= this.end.getColumn()
+                    && this.begin.getLine() >= s.begin.getColumn()
+                    && this.begin.getLine() <= s.end.getLine();
+        } else {
+            return s.begin.getLine() >= this.begin.getLine()
+                    && s.begin.getLine() <= this.end.getLine()
+                    && this.begin.getColumn() >= s.begin.getColumn()
+                    && this.begin.getColumn() <= s.end.getColumn();
+        }
+
+    }
+
+    /**Une méthode qui vérifie si un navire est touché*/
+    public boolean isTouched(Coordonates c){
+        for ( int i=0; i<touchedSquares.length; i++){
+            if(touchedSquares[i].equals(c)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    /**Une méthode qui vérifie si un navire a été touché par un tir*/
+    public boolean isShoot(Coordonates c){
+        if(this.isIn(c)){
+            touchedSquares[nbTouched] = c;
+            nbTouched++;
+            return true;
+        }
+        return false;
+    }
+
+    /** Méthode qui existe déjà mais ici , elle marche si jamais au moins le bateau a été touché une fois*/
+    public boolean isTouched(){
+        return nbTouched > 0;
+    }
+
+    public boolean isDestroyed(){
+        /*for ( int i=0; i<touchedSquares.length; i++){
+         if(touchedSquares[i].equals(c)) {
+         return true;*/
+        return touchedSquares.length == nbTouched;
+
+    }
+
+
+
+    }
+
+
+
+
+
 
 
 

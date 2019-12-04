@@ -1,35 +1,58 @@
 package battleShip;
 
-import java.util.HashMap;
+/*import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
-import java.util.Set;
+import java.util.Set;*/
 
 
 public class HidingBoard {
 
-    public static void main(String[] args) {
-
-
-            Map<Integer, String> board = new HashMap<>();
-            board.put(10, "1");
-            board.put(20, "2");
-            board.put(30, "3");
-            board.put(40, "4");
-            board.put(50, "5");
-
-            System.out.println("Parcours de l'objet HashMap : ");
-            Set<Entry<Integer, String>> setHm = board.entrySet();
-            Iterator<Entry<Integer, String>> it = setHm.iterator();
-            while(it.hasNext()){
-                Entry<Integer, String> e = it.next();
-                System.out.println(e.getKey() + " : " + e.getValue());
+    static int[][] board = new int[11][11];
+    static boolean gameOver;
+    public static int[][] initialisation() {
+        int i;
+        int j;
+        int x;
+        int y;
+        for (i = 0; i < 10; i = i + 1) {
+            for (j = 0; j < 10; j = j + 1) {
+                board[i][j] = 0;
             }
-
-            System.out.println("Valeur pour la clé 8 : " + board.get(8));
-
-
+        }
+        x = (int) (Math.random() * 10);
+        y = (int) (Math.random() * 10);
+        board[x][y] = 1 - board[x][y];
+        board[x][y - 1] = 1 - board[x][y - 1];
+        gameOver = false;
+        return board;
+    }
+    // Déclaration de la grille
+    public static void boardDisplay(int[][] board) {
+        int i;
+        int j;
+        System.out.println("   A B C D E F G H I J");
+        for (i = 0; i < 10; i = i + 1) {
+            System.out.print(i + "  ");
+            for (j = 1; j < 11; j = j + 1) {
+                if (board[i][j] == 0) {
+                    System.out.print("~ ");
+                }
+                if (board[i][j] == 2) {
+                    System.out.print("* ");
+                }
+                if (board[i][j] == 1) {
+                    System.out.print("X ");
+                }
+            }
+            System.out.println();
         }
     }
+    public static void main(String[] args) {
+        board = initialisation();
+        boardDisplay(board);
+    }
+}
+
 
