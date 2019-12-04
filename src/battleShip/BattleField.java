@@ -24,6 +24,10 @@ public class BattleField {
         System.out.println("ironclad end :" +ironclad.getEnd());
 
     }
-
+    /*public static void main(String[] args) {
+        BattleField board = new BattleField();
+        board = initialisation();
+        boardDisplay(board);
+    }*/
 
 }

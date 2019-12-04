@@ -9,9 +9,9 @@ class EqualsReviewTest {
         var e1 = new EqualsReview(5,12,"marcher",true);
         var e2 = new EqualsReview(5,12,"marcher",true);
         var e3 = new EqualsReview(6,114,"courrir",true);
-        var e4 = new EqualsReview(5,12,"marcher",true);
+        var e4 = new EqualsReview(4,12,"marcher",true);
         var e5 = new EqualsReview(5,12,"marcher",true);
-        assertEquals(true, e1.equals(e3));
+        assertEquals(false, e3.equals(e4));
         //assertEquals(true, e1.equals(e3));
     }
     @org.junit.jupiter.api.Test
