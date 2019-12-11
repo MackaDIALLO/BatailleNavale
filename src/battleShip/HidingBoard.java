@@ -8,16 +8,17 @@ import java.util.Set;*/
 
 
 public class HidingBoard {
+    Ship carrier = new Ship(ModelBoat.CARRIER,5,false, new Coordonates("B1"));
 
-    static int[][] board = new int[11][11];
-    static boolean gameOver;
-    public static int[][] initialisation() {
+     int[][] board = new int[11][11];
+     boolean gameOver;
+    public  int[][] initialisation() {
         int i;
         int j;
         int x;
         int y;
-        for (i = 0; i < 10; i = i + 1) {
-            for (j = 0; j < 10; j = j + 1) {
+        for (i = 0; i < 10; i++) {
+            for (j = 0; j < 10; j++) {
                 board[i][j] = 0;
             }
         }
@@ -29,13 +30,14 @@ public class HidingBoard {
         return board;
     }
     // Déclaration de la grille
-    public static void boardDisplay(int[][] board) {
+    //public void boardDisplay(int[][] board) {
+    public void boardDisplay() {
         int i;
         int j;
         System.out.println("    A   B   C   D   E   F   G   H   I   J ");
-        for (i = 0; i < 10; i = i + 1) {
+        for (i = 0; i < 10; i++) {
             System.out.print(i + "  ");
-            for (j = 1; j < 11; j = j + 1) {
+            for (j = 1; j < 11; j++) {
                 if (board[i][j] == 0) {
                     System.out.print("|_| ");
                 }
@@ -49,10 +51,13 @@ public class HidingBoard {
             System.out.println();
         }
     }
-    public static void main(String[] args) {
-        board = initialisation();
-        boardDisplay(board);
-    }
+    /*public static void main(String[] args) {
+        HidingBoard board = new HidingBoard();
+        board.initialisation();
+        //board = initialisation();
+        //boardDisplay(board);
+        board.boardDisplay();
+    }*/
 }
 
 

@@ -3,10 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a282fdf5-a693-4a84-b537-ed07da0b37ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/BatailleNavale/battleShip/BattleField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BatailleNavale/battleShip/BattleField.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/BatailleNavale/battleShip/HidingBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BatailleNavale/battleShip/HidingBoard.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/battleShip/BattleField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/BattleField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battleShip/EqualsReview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/EqualsReview.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battleShip/EqualsReviewTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/EqualsReviewTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/battleShip/HidingBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/HidingBoard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +43,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BattleShip-master" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
@@ -57,7 +57,7 @@
       <recent name="battleShip" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EqualsReviewTest.testEquals">
+  <component name="RunManager" selected="Application.BattleField">
     <configuration name="BattleField" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="battleShip.BattleField" />
       <module name="BatailleNavale" />
@@ -102,9 +102,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EqualsReviewTest.testEquals" />
-        <item itemvalue="Application.HidingBoard" />
         <item itemvalue="Application.BattleField" />
+        <item itemvalue="Application.HidingBoard" />
+        <item itemvalue="JUnit.EqualsReviewTest.testEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -132,7 +132,10 @@
       <updated>1575295162393</updated>
       <workItem from="1575295165462" duration="5958000" />
       <workItem from="1575358861327" duration="36666000" />
-      <workItem from="1575446295304" duration="18311000" />
+      <workItem from="1575446295304" duration="19228000" />
+      <workItem from="1575963671513" duration="4029000" />
+      <workItem from="1576010874588" duration="5700000" />
+      <workItem from="1576049980834" duration="39000" />
     </task>
     <task id="LOCAL-00001" summary="class equals test , class equals , update ship class , maj coordonates class and hiding board.">
       <created>1575468997055</created>
@@ -141,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575468997055</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="class equals test , class equals , update ship class , maj coordonates class and hiding board.">
+      <created>1575472208394</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575472208395</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +162,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="class equals test , class equals , update ship class , maj coordonates class and hiding board." />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="70" key="#Inspections" timestamp="1576013673938">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="70" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1576013673938" />
     <state x="0" y="48" width="814" height="732" key="#Intentions" timestamp="1575408616516">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -165,30 +179,34 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="158" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1575385855835" />
-    <state x="482" y="0" key="CommitChangelistDialog2" timestamp="1575468996363">
+    <state x="482" y="0" key="CommitChangelistDialog2" timestamp="1575472207829">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="482" y="0" key="CommitChangelistDialog2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1575468996363" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1575472158676">
+    <state x="482" y="0" key="CommitChangelistDialog2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1575472207829" />
+    <state x="549" y="166" key="FileChooserDialogImpl" timestamp="1575971812990">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1575472158676" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1575422639865" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1575472158675">
+    <state x="549" y="166" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1575971812990" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1576020597967">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1575472158675" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1575422639865" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1575472158675">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1575473127255" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1576020597967" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1576020597966">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1575472158675" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1575422639865" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1575472158675">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1575473127255" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1576020597966" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1576020597966">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1575472158675" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1575422639865" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1575473127255" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1576020597966" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1576020597966">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1575473127255" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1576020597966" />
     <state x="19" y="51" key="SettingsEditor" timestamp="1575403212362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -198,10 +216,11 @@
     </state>
     <state x="0" y="123" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1575448359273" />
     <state x="0" y="123" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575414306779" />
-    <state x="465" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1575446350617">
+    <state x="465" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1576050007617">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="235" key="com.intellij.ide.util.TipDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1575446350617" />
+    <state x="465" y="235" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576050007617" />
     <state x="498" y="305" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1575463597836">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

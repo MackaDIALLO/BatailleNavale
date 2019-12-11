@@ -1,10 +1,11 @@
 package battleShip;
 
 public class BattleField {
-    public static void main(String[] args) {
+   public static void main(String[] args) {
 
         Ship carrier = new Ship(ModelBoat.CARRIER,5,false, new Coordonates("B1"));
-        System.out.println("\nCarrier begin :" +carrier.getBegin());
+        //System.out.println("\nCarrier begin :" +carrier.getBegin());
+        System.out.println("" +carrier.name+ " Begin :" +carrier.getBegin());
         System.out.println("Carrier end :" +carrier.getEnd()+ "\n");
 
         Ship submarine = new Ship(ModelBoat.SUBMARINE,3,true, new Coordonates("E3"));
@@ -23,11 +24,10 @@ public class BattleField {
         System.out.println("ironclad begin :" +ironclad.getBegin());
         System.out.println("ironclad end :" +ironclad.getEnd());
 
+
+        HidingBoard board = new HidingBoard();
+        board.initialisation();
+        board.boardDisplay();
     }
-    /*public static void main(String[] args) {
-        BattleField board = new BattleField();
-        board = initialisation();
-        boardDisplay(board);
-    }*/
 
 }
