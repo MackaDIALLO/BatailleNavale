@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a282fdf5-a693-4a84-b537-ed07da0b37ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BatailleNavale/battleShip/BattleField.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BatailleNavale/battleShip/BattleField.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/BatailleNavale/battleShip/HidingBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/BatailleNavale/battleShip/HidingBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battleShip/BattleField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/BattleField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/battleShip/HidingBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/battleShip/HidingBoard.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +132,10 @@
       <workItem from="1575963671513" duration="4029000" />
       <workItem from="1576010874588" duration="5700000" />
       <workItem from="1576049980834" duration="39000" />
+      <workItem from="1576053677235" duration="228000" />
+      <workItem from="1576094753485" duration="7000" />
+      <workItem from="1576104069503" duration="4000" />
+      <workItem from="1576146297675" duration="461000" />
     </task>
     <task id="LOCAL-00001" summary="class equals test , class equals , update ship class , maj coordonates class and hiding board.">
       <created>1575468997055</created>
@@ -216,10 +216,10 @@
     </state>
     <state x="0" y="123" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1575448359273" />
     <state x="0" y="123" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1575414306779" />
-    <state x="465" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1576050007617">
+    <state x="465" y="235" key="com.intellij.ide.util.TipDialog" timestamp="1576146351454">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="235" key="com.intellij.ide.util.TipDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1575446350617" />
+    <state x="465" y="235" key="com.intellij.ide.util.TipDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1576146351454" />
     <state x="465" y="235" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576050007617" />
     <state x="498" y="305" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1575463597836">
       <screen x="0" y="0" width="1536" height="824" />
